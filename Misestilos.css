@@ -1,0 +1,149 @@
+body{
+  margin: 0;
+  padding: 0;
+  background: #12c2e9;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f64f59, #c471ed, #12c2e9);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: sans- serif;
+  }
+  
+  
+  
+  
+  
+  .menu {
+      background-color: #f1f1f1;
+      
+      height: 40px;
+      padding: 25px;
+    }
+    
+    .menu ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+    
+    .menu li {
+      float: left;
+    }
+    
+    .menu li.left {
+      margin-right: 20px;
+    }
+    
+    .menu li.right {
+      float: right;
+    }
+    
+    .menu a {
+      color: #333;
+      display: block;
+      font-weight: bold;
+      padding: 10px;
+      text-decoration: none;
+    }
+    
+    .menu a:hover {
+      background-color: #ddd;
+    }
+    
+  
+  
+  
+  
+  
+  
+  
+  
+    
+  
+  
+  
+  
+    .medio {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 50vh;
+    }
+    
+    h1 {
+      color: #ddd;
+      font-size: 6rem;
+    }
+    
+    input[type="text"] {
+      width: 60%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      margin-right: 10px;
+    }
+    
+    .buscador {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    
+    a {
+      display: inline-block;
+      width: 25%;
+      text-align: right;
+    }
+    
+    button {
+      background-color: #4285f4;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      margin-right: 10px;
+    }
+    
+    .botones {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    
+  
+  
+  
+  
+  
+    footer {
+      background-color: #eee;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    
+    .ultimo {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .ultimo ul.final {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+    }
+    
+    li {
+      margin-right: 20px;
+    }
+    
+    a {
+      color: #333;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    
