@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        h1{
+            font-size: 40px;
+        }
+        .inicio {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+        label{
+            margin-right: 40px;
+            line-height: 48px;
+        }
+        label[for="Usuario"] {
+            margin-right: 60px;
+        }
+
+        input{
+            margin: 10px;
+            padding: 2px;
+            border-radius: 5px;
+            border: 1px solid gray;
+        }
+        button{
+    
+            margin: 25px;
+            padding: 6px;
+            border-radius: 5px;
+            border: none;
+            background-color: blue;
+            color: white;
+            width: 100px;
+            cursor: pointer;
+        }
+        a{
+            margin-top: 20px;
+            text-decoration: none;
+        }
+        footer{
+            background: rgb(2,0,36);
+            background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,0.5408087021265274) 35%, rgba(0,212,255,1) 100%);
+			color: #fff;
+            text-align: center;
+        }
+    </style>
+</head>
+<div class="inicio">
+    <h1>Iniciar Sesion</h1>
+    <form>
+        <label for="Usuario">Usuario:</label>
+        <input type="text" name="Usuario"><br>
+        <label for="Contraseña">Contraseña:</label>
+        <input type="password" name="Contraseña"><br>
+        <button >Buscar</button>
+        <button type="submit">Iniciar sesion</button>
+    </form>
+    <a href="#">¿Olvidaste tu Contraseña?</a>
+</div>
+<footer>@ Copyright</footer>
+</body>
+</html>

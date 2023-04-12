@@ -19,21 +19,28 @@ body{
     }
     
     .menu ul {
+     
       list-style: none;
       margin: 0;
       padding: 0;
     }
     
     .menu li {
-      float: left;
+        
+      
     }
     
     .menu li.left {
-      margin-right: 20px;
+   
+      float: left;
+      
     }
     
     .menu li.right {
+    
+
       float: right;
+  
     }
     
     .menu a {
@@ -62,11 +69,14 @@ body{
   
   
     .medio {
+  
+      width: 500px;
+      margin: 0 auto;
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      height: 50vh;
+  
     }
     
     h1 {
@@ -112,11 +122,6 @@ body{
       align-items: center;
     }
     
-  
-  
-  
-  
-  
     footer {
       background-color: #eee;
       padding: 20px;
@@ -126,19 +131,24 @@ body{
     }
     
     .ultimo {
+      
       display: flex;
       justify-content: center;
+
     }
     
     .ultimo ul.final {
+    
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
+  
     }
     
     li {
       margin-right: 20px;
+  
     }
     
     a {
@@ -146,4 +156,8 @@ body{
       text-decoration: none;
       font-size: 1.2rem;
     }
+    .ultimo ul.final li.po{
+      background-color: #333;
+    }
+    
     
