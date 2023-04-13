@@ -1,0 +1,125 @@
+/* Global styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    }
+    .TODO{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    /* Header */
+    .encabezado {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    /* establece la posición a relativa o absoluta */
+    position:relative;
+    /* ponemos valor alto para asegurarse de que esté en la capa superior */
+    z-index: 999;
+    }
+    
+    .encabezadoIzquierda img {
+    height: 50px;
+    }
+    
+    .encabezadoCentro h1 {
+    font-size: 28px;
+    margin: 0;
+    }
+    
+    .encabezadoDerecha {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 50px;
+    }
+    
+    .encabezadoDerecha p {
+    margin-right: 10px;
+    font-size: 14px;
+    }
+    
+    .encabezadoDerecha img {
+    height: 30px;
+    }
+    
+    /* Navigation */
+    .botones {
+    background-color: #f2f2f2;
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    }
+    
+    .botones ul {
+    list-style: none;
+    margin: 100px 0;
+    padding: 0;
+    }
+    
+    .botones li {
+    margin: 0;
+    }
+    
+    .botones button {
+    display: block;
+    padding: 20px;
+    color: #333;
+    background-color: #f2f2f2;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    text-align: left;
+    width: 100%;
+    }
+    
+    .botones button:hover {
+    background-color: #333;
+    color: #fff;
+    }
+    
+    /* Aside */
+    .Informacion {
+    margin-left: 150px;
+    padding: 20px;
+    }
+    
+    .Informacion h2 {
+    margin-top: 0;
+    }
+    
+    
+    .pieDePagina {
+        position: absolute;
+        bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    }
+    
+    .pieDePagina p {
+    margin: 0;
+    font-size: 14px;
+    }
+/* Footer 
+    footer {
+        position: absolute;
+        bottom: 0;
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+        width: 100%;
+      }
+      */
